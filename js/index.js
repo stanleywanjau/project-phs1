@@ -51,6 +51,16 @@ let input = document.getElementById('searchbar').value
         return search
     } 
 }
+let likeCount = 0;
+
+// Function to handle the click event of the like button
+function like() {
+    likeCount+=1;
+    document.getElementById("likeCount").textContent = likeCount;
+}
+
+// Add an event listener to the like button
+document.getElementById("likeButton").addEventListener("click", like)
     
 })
 )
