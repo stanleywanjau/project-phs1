@@ -18,9 +18,13 @@ fetch ('https://www.googleapis.com/books/v1/volumes?q=friction')
     <p><strong>description</strong>${bookInfo.description}</p>
     <button id="likeButton" class="like-button">Like</button>
     <p id="likeCount">0</p>
-    <input type="text" id="comment-box" placeholder="Enter comment">
-    <button id="post">Post</button>
-    <ul id="unordered">
+    <div id="comments">
+    <!-- Existing comments will be displayed here -->
+</div>
+<form id="commentForm">
+    <textarea id="commentText" placeholder="Write your comment..."></textarea>
+    <button type="submit">Post Comment</button>
+</form>
        
    </ul>
    
