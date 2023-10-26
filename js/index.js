@@ -69,7 +69,23 @@ document.addEventListener('DOMContentLoaded', () => {
           });
         });
   
-       
-       
+        // Function to search for books
+        function searchBooks() {
+          let input = document.getElementById('searchbar').value.toLowerCase();
+          let bookItems = document.querySelectorAll('.book');
+  
+          bookItems.forEach((item) => {
+            if (!item.innerHTML.toLowerCase().includes(input)) {
+              item.style.display = 'none';
+            } else {
+              item.style.display = 'block';
+            }
+          });
+        }
+  
+        // Event listener for the search bar
+        const searchBar = document.getElementById('searchbar');
+        searchBar.addEventListener('input', searchBooks);
+      });
   });
   
