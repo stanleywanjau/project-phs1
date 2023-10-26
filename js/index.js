@@ -16,7 +16,11 @@ fetch ('https://www.googleapis.com/books/v1/volumes?q=friction')
     <p><strong>publisher:</strong>${bookInfo.publisher}</p>
     <p><strong>publishedDate</strong>${bookInfo.publishedDate}</p>
     <p><strong>description</strong>${bookInfo.description}</p>
-    
+    <input type="text" id="comment-box" placeholder="Enter comment">
+    <button id="post">Post</button>
+    <ul id="unordered">
+       
+   </ul>
    
     
     `;
