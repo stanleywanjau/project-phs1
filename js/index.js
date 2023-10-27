@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const bookDetails = book.volumeInfo;
           const bookItem = document.createElement('div');
           bookItem.classList.add('book');
+          //book details will be displayed here
           bookItem.innerHTML = `
             <h2>${bookDetails.title}</h2>
             <img src="${bookDetails.imageLinks.thumbnail}" alt="book Cover">
