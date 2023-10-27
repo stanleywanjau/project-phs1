@@ -1,3 +1,6 @@
+*{
+  margin:20px;
+}
 .like-button {
   background-color: #3498db;
   color: white;
