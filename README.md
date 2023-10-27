@@ -15,7 +15,8 @@ This is a simple webpage that the user can read book review about react and the 
 ```
 or by downloading a ZIP file of the code 
 
-or by viewing it in the github page
+or by viewing it in the github page using https://stanleywanjau.github.io/project-phs1/
+
 
 
 2. The repository, if downloaded as a .zip file will need to be extracted to your preferred location.
